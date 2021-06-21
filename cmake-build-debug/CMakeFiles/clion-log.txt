@@ -1,0 +1,488 @@
+/Users/svyatoslavstrelnikov/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/svyatoslavstrelnikov/CLionProjects/lab-07
+-- The C compiler identification is AppleClang 12.0.5.12050022
+-- The CXX compiler identification is AppleClang 12.0.5.12050022
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /Users/svyatoslavstrelnikov/.hunter
+-- [hunter] [ Hunter-ID: 35fa55b | Toolchain-ID: a49afb0 | Config-ID: e6339d5 ]
+-- [hunter] BEAST_ROOT: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Install (ver.: 1.0.0-b84-hunter-0)
+-- [hunter] Building Beast
+loading initial cache file /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/cache.cmake
+loading initial cache file /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/args.cmake
+-- The C compiler identification is AppleClang 12.0.5.12050022
+-- The CXX compiler identification is AppleClang 12.0.5.12050022
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Build
+Scanning dependencies of target Beast-Release
+[  6%] Creating directories for 'Beast-Release'
+[ 12%] Performing download step (download, verify and extract) for 'Beast-Release'
+-- Downloading...
+   dst='/Users/svyatoslavstrelnikov/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+   timeout='none'
+-- Using src='https://github.com/hunter-packages/Beast/archive/v1.0.0-b84-hunter-0.tar.gz'
+-- [download 100% complete]
+-- verifying file...
+       file='/Users/svyatoslavstrelnikov/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/Users/svyatoslavstrelnikov/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+     dst='/Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No patch step for 'Beast-Release'
+[ 25%] No update step for 'Beast-Release'
+[ 31%] Performing configure step for 'Beast-Release'
+loading initial cache file /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/cache.cmake
+loading initial cache file /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/args.cmake
+-- The C compiler identification is AppleClang 12.0.5.12050022
+-- The CXX compiler identification is AppleClang 12.0.5.12050022
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- [hunter] HUNTER_ROOT: /Users/svyatoslavstrelnikov/.hunter
+-- [hunter] [ Hunter-ID: 35fa55b | Toolchain-ID: a49afb0 | Config-ID: e6339d5 ]
+-- [hunter] BOOST_ROOT: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Install (ver.: 1.72.0-p1)
+-- [hunter] BOOST_ROOT: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Install (ver.: 1.72.0-p1)
+-- Boost version: 1.72.0
+-- Found the following Boost libraries:
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Build/Beast-Release-prefix/src/Beast-Release-build
+[ 37%] Performing build step for 'Beast-Release'
+[ 43%] Performing install step for 'Beast-Release'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/accept.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/write.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/close.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/fail.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/read.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/ssl.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/error.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/handshake.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/ping.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/stream.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/teardown.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/rfc6455.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/rfc6455.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/option.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/stream.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/teardown.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/error.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/ssl.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/hybi13.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/pausation.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/type_traits.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/pmd_extension.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/utf8_checker.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/frame.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/mask.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/string_param.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/multi_buffer.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/buffers_adapter.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/handler_ptr.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/flat_buffer.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/buffered_read_stream.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/buffer_cat.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/file_win32.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/file_posix.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/read_size.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/file_stdio.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/static_buffer.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/flat_static_buffer.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/static_string.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/consuming_buffers.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/buffer_prefix.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/static_buffer.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/static_string.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/flat_static_buffer.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/drain_buffer.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/span.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/consuming_buffers.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/buffer_prefix.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/ostream.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/buffered_read_stream.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/file.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/buffer_cat.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/read_size.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/file_posix.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/file_win32.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/file_stdio.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/error.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/type_traits.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/handler_alloc.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/static_string.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/empty_base_optimization.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/ostream.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/varint.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/config.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/clamp.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/type_traits.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/static_ostream.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/sha1.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/cpu_info.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/buffers_ref.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/integer_sequence.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/bind_handler.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/in_place_init.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/base64.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/file_base.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/async_result.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/flat_buffer.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/string.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/string_param.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/buffers_adapter.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/multi_buffer.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/bind_handler.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/handler_ptr.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/config.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/impl
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/impl/error.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/deflate_stream.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/inflate_stream.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/error.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail/ranges.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail/deflate_stream.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail/inflate_stream.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail/window.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail/bitstream.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/zlib.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/version.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/write.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/rfc7230.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/message.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/status.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/chunk_encode.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/read.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/error.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/verb.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/file_body_win32.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/field.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/serializer.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/basic_parser.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/parser.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/fields.ipp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/basic_dynamic_body.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/serializer.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/parser.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/basic_parser.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/fields.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/string_body.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/file_body.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/empty_body.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/field.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/span_body.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/vector_body.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/read.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/error.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/chunk_encode.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/type_traits.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/status.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/verb.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail/basic_parser.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail/chunk_encode.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail/type_traits.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail/basic_parsed_list.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail/rfc7230.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/basic_file_body.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/write.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/dynamic_body.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/rfc7230.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/message.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/buffer_body.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/lib/cmake/Beast/BeastConfig.cmake
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/lib/cmake/Beast/BeastConfigVersion.cmake
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/lib/cmake/Beast/BeastTargets.cmake
+loading initial cache file /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/args.cmake
+[ 50%] Completed 'Beast-Release'
+[ 50%] Built target Beast-Release
+Scanning dependencies of target Beast-Debug
+[ 56%] Creating directories for 'Beast-Debug'
+[ 62%] Performing download step (download, verify and extract) for 'Beast-Debug'
+-- verifying file...
+       file='/Users/svyatoslavstrelnikov/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='/Users/svyatoslavstrelnikov/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+  SHA1='4268caa6c044fc8180d36d918aa731ffa931380d'
+-- extracting...
+     src='/Users/svyatoslavstrelnikov/.hunter/_Base/Download/Beast/1.0.0-b84-hunter-0/4268caa/v1.0.0-b84-hunter-0.tar.gz'
+     dst='/Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 68%] No patch step for 'Beast-Debug'
+[ 75%] No update step for 'Beast-Debug'
+[ 81%] Performing configure step for 'Beast-Debug'
+loading initial cache file /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/cache.cmake
+loading initial cache file /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/args.cmake
+-- The C compiler identification is AppleClang 12.0.5.12050022
+-- The CXX compiler identification is AppleClang 12.0.5.12050022
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- [hunter] HUNTER_ROOT: /Users/svyatoslavstrelnikov/.hunter
+-- [hunter] [ Hunter-ID: 35fa55b | Toolchain-ID: a49afb0 | Config-ID: e6339d5 ]
+-- [hunter] BOOST_ROOT: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Install (ver.: 1.72.0-p1)
+-- [hunter] BOOST_ROOT: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Install (ver.: 1.72.0-p1)
+-- Boost version: 1.72.0
+-- Found the following Boost libraries:
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Build/Beast-Debug-prefix/src/Beast-Debug-build
+[ 87%] Performing build step for 'Beast-Debug'
+[ 93%] Performing install step for 'Beast-Debug'
+Install the project...
+-- Install configuration: "Debug"
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/accept.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/write.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/close.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/fail.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/read.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/ssl.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/error.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/handshake.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/ping.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/stream.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/teardown.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/impl/rfc6455.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/rfc6455.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/option.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/stream.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/teardown.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/error.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/ssl.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/hybi13.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/pausation.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/type_traits.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/pmd_extension.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/utf8_checker.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/frame.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/websocket/detail/mask.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/string_param.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/multi_buffer.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/buffers_adapter.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/handler_ptr.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/flat_buffer.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/buffered_read_stream.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/buffer_cat.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/file_win32.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/file_posix.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/read_size.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/file_stdio.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/static_buffer.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/flat_static_buffer.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/static_string.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/consuming_buffers.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/impl/buffer_prefix.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/static_buffer.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/static_string.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/flat_static_buffer.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/drain_buffer.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/span.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/consuming_buffers.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/buffer_prefix.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/ostream.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/buffered_read_stream.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/file.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/buffer_cat.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/read_size.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/file_posix.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/file_win32.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/file_stdio.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/error.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/type_traits.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/handler_alloc.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/static_string.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/empty_base_optimization.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/ostream.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/varint.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/config.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/clamp.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/type_traits.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/static_ostream.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/sha1.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/cpu_info.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/buffers_ref.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/integer_sequence.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/bind_handler.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/in_place_init.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/detail/base64.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/file_base.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/async_result.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/flat_buffer.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/string.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/string_param.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/buffers_adapter.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/multi_buffer.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/bind_handler.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core/handler_ptr.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/config.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/impl
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/impl/error.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/deflate_stream.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/inflate_stream.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/error.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail/ranges.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail/deflate_stream.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail/inflate_stream.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail/window.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/detail/bitstream.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib/zlib.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/version.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/write.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/rfc7230.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/message.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/status.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/chunk_encode.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/read.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/error.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/verb.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/file_body_win32.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/field.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/serializer.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/basic_parser.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/parser.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/impl/fields.ipp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/basic_dynamic_body.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/serializer.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/parser.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/basic_parser.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/fields.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/string_body.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/file_body.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/empty_body.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/field.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/span_body.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/vector_body.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/read.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/error.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/chunk_encode.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/type_traits.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/status.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/verb.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail/basic_parser.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail/chunk_encode.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail/type_traits.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail/basic_parsed_list.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/detail/rfc7230.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/basic_file_body.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/write.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/dynamic_body.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/rfc7230.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/message.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/http/buffer_body.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/zlib.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast/core.hpp
+-- Up-to-date: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/include/beast.hpp
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/lib/cmake/Beast/BeastConfig.cmake
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/lib/cmake/Beast/BeastConfigVersion.cmake
+-- Installing: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/Install/lib/cmake/Beast/BeastTargets.cmake
+loading initial cache file /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast/args.cmake
+[100%] Completed 'Beast-Debug'
+[100%] Built target Beast-Debug
+-- [hunter] Build step successful (dir: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Build/Beast)
+-- [hunter] Cache saved: /Users/svyatoslavstrelnikov/.hunter/_Base/Cache/raw/ecc2b4dc55c3774970694dacc241a58b0e3548d7.tar.bz2
+-- Boost version: 1.72.0
+-- Found the following Boost libraries:
+--   system
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- [hunter] BOOST_ROOT: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Install (ver.: 1.72.0-p1)
+-- [hunter] BOOST_ROOT: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Install (ver.: 1.72.0-p1)
+-- [hunter] BOOST_ROOT: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Install (ver.: 1.72.0-p1)
+-- Boost version: 1.72.0
+-- Found the following Boost libraries:
+--   thread
+--   filesystem
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- [hunter] GTEST_ROOT: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Install (ver.: 1.10.0)
+-- [hunter] NLOHMANN_JSON_ROOT: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Install (ver.: 3.8.0)
+-- Found nlohmann_json: /Users/svyatoslavstrelnikov/.hunter/_Base/35fa55b/a49afb0/e6339d5/Install/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.8.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/svyatoslavstrelnikov/CLionProjects/lab-07/cmake-build-debug
